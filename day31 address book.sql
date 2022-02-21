@@ -53,4 +53,7 @@ select count(city) as 'city count' from Addressbook where city='hyderabad'
 
 select count(state) as 'state count' from Addressbook where state='chennai'
  
-
+select * from Addressbook
+ 
+ --uc8 Sort contact by firstname from city
+ select * from Addressbook where City ='tamilnadu' order by Firstname
